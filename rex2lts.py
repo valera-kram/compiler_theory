@@ -1,3 +1,7 @@
+#стартовое состояние МСП -- 'start'
+#финишное состояние МСП -- 'finish'
+#спонтанный переход -- (stateA, 'E', stateB)
+
 class ReX:
     def __init__(self, **kwargs):
         self.tree = {}
